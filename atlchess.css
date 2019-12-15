@@ -1,0 +1,40 @@
+/* chatchess.css */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #efefef;
+	padding-top: 10px;
+}
+
+.mainChessBoard {
+	margin: auto;
+	width: 410px;
+	height: 410px;
+	border: 5px solid #333;
+	margin-top: 10px;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	float: left;
+	font-size: 40px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.white {
+	background-color: #ffffff;
+}
+.black {
+	background-color: #ababab;
+}
+
+.selectionHighlight {
+	border: 2px solid green;
+}
+
